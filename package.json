@@ -1,0 +1,25 @@
+{
+  "name": "codevictor-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
